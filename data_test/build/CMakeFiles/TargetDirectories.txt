@@ -1,0 +1,6 @@
+C:/labs/lab/data_test/build/CMakeFiles/data.dir
+C:/labs/lab/data_test/build/CMakeFiles/test.dir
+C:/labs/lab/data_test/build/CMakeFiles/edit_cache.dir
+C:/labs/lab/data_test/build/CMakeFiles/rebuild_cache.dir
+C:/labs/lab/data_test/build/CMakeFiles/data_autogen_timestamp_deps.dir
+C:/labs/lab/data_test/build/CMakeFiles/data_autogen.dir

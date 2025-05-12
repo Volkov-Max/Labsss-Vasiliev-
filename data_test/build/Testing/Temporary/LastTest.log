@@ -1,0 +1,26 @@
+Start testing: May 12 13:48 RTZ 6 (çèìà)
+----------------------------------------------------------
+1/1 Testing: data
+1/1 Test: data
+Command: "C:/labs/lab/data_test/build/data.exe"
+Directory: C:/labs/lab/data_test/build
+"data" start time: May 12 13:48 RTZ 6 (çèìà)
+Output:
+----------------------------------------------------------
+********* Start testing of data *********
+Config: Using QtTest library 6.9.0, Qt 6.9.0 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 14.2.0), windows 11
+PASS   : data::initTestCase()
+PASS   : data::test_validDates()
+PASS   : data::test_invalidDates()
+PASS   : data::cleanupTestCase()
+Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 4ms
+********* Finished testing of data *********
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"data" end time: May 12 13:48 RTZ 6 (çèìà)
+"data" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 12 13:48 RTZ 6 (çèìà)
