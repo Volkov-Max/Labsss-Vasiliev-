@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # ← Лучше использовать стабильную Ubuntu, а не latest
 
     steps:
       - name: Checkout repository
@@ -21,7 +21,7 @@ jobs:
             qtbase5-dev \
             qt5-qmake \
             qttools5-dev \
-            qttools5-dev-tools \  # ⚠️ вот это добавлено для Qt5LinguistTools
+            qttools5-dev-tools \
             cmake \
             build-essential
 
