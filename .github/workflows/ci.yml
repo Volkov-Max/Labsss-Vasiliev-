@@ -8,20 +8,23 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04  # ← Лучше использовать стабильную Ubuntu, а не latest
+    runs-on: ubuntu-22.04  
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Qt and dependencies
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.9'  # Устанавливаем Qt 6.9
+          # Опционально: укажите дополнительные модули, если они нужны вашему проекту
+          # modules: 'qttools qtbase'
+
+      - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            qtbase5-dev \
-            qt5-qmake \
-            qttools5-dev \
-            qttools5-dev-tools \
             cmake \
             build-essential
 
