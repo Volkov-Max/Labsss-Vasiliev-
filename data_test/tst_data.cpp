@@ -19,12 +19,12 @@ void data::test_validDates()
 
 void data::test_invalidDates()
 {
-    QVERIFY(!DataValidator::isValidDate("2024.13.01"));  // месяц > 12
-    QVERIFY(!DataValidator::isValidDate("2024.00.10"));  // месяц = 00
-    QVERIFY(!DataValidator::isValidDate("2024.02.32"));  // день > 31
-    QVERIFY(!DataValidator::isValidDate("2024.2.2"));    // неформатированная дата
-    QVERIFY(!DataValidator::isValidDate("abcd.ef.gh"));  // не числа
-    QVERIFY(!DataValidator::isValidDate(""));            // пустая строка
+    QVERIFY(!DataValidator::isValidDate("2024.13.01"));
+    QVERIFY(!DataValidator::isValidDate("2024.00.10"));
+    QVERIFY(!DataValidator::isValidDate("2024.02.32"));
+    QVERIFY(!DataValidator::isValidDate("2024.2.2"));
+    QVERIFY(!DataValidator::isValidDate("abcd.ef.gh"));
+    QVERIFY(!DataValidator::isValidDate(""));
 }
 
 QTEST_APPLESS_MAIN(data)
