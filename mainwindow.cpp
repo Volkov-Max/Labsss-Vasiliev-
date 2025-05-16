@@ -132,7 +132,6 @@ void MainWindow::on_saveButton_clicked()
 
 void MainWindow::on_fuldelButton_clicked()
 {
-    int gg1;
     cnt++;
     updateClick();
     model->removeRows(0, model->rowCount());
