@@ -12,7 +12,7 @@ private slots:
 
 void data::test_validDates()
 {
-    QVERIFY(DataValidator::isValidDate("2024.00.01"));
+    QVERIFY(DataValidator::isValidDate("2024.10.01"));
     QVERIFY(DataValidator::isValidDate("1999.12.31"));
     QVERIFY(DataValidator::isValidDate("2000.06.15"));
 }
