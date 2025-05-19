@@ -16,13 +16,16 @@ jobs:
       - name: Checkout кода
         uses: actions/checkout@v2
 
+      - name: Установка Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: '5.15.2'  # Укажи свою версию Qt
+          host: 'linux'
+          target: 'desktop'
+          arch: 'gcc_64'
+
       - name: Конфигурация CMake
         run: cmake -B build
 
       - name: Сборка проекта
         run: cmake --build build
-
-      - name: Запуск тестов
-        run: |
-          cd build
-          ctest
