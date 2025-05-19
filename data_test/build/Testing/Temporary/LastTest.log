@@ -1,10 +1,10 @@
-Start testing: May 17 13:29 RTZ 6 (çèìà)
+Start testing: May 19 13:38 RTZ 6 (çèìà)
 ----------------------------------------------------------
 1/1 Testing: data
 1/1 Test: data
 Command: "C:/labs/lab/data_test/build/data.exe"
 Directory: C:/labs/lab/data_test/build
-"data" start time: May 17 13:29 RTZ 6 (çèìà)
+"data" start time: May 19 13:38 RTZ 6 (çèìà)
 Output:
 ----------------------------------------------------------
 ********* Start testing of data *********
@@ -13,14 +13,14 @@ PASS   : data::initTestCase()
 PASS   : data::test_validDates()
 PASS   : data::test_invalidDates()
 PASS   : data::cleanupTestCase()
-Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 3ms
+Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 5ms
 ********* Finished testing of data *********
 <end of output>
-Test time =   0.07 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"data" end time: May 17 13:29 RTZ 6 (çèìà)
+"data" end time: May 19 13:38 RTZ 6 (çèìà)
 "data" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 17 13:29 RTZ 6 (çèìà)
+End testing: May 19 13:38 RTZ 6 (çèìà)

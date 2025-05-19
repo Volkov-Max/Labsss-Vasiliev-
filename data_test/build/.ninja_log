@@ -1,15 +1,9 @@
 # ninja log v6
-4323	4445	7691664661561685	data.exe	f092942b7bd919a0
-913	4323	7691664627481560	CMakeFiles/data.dir/tst_data.cpp.obj	d51977fe5abefaae
-913	2367	7687351257854048	CMakeFiles/data.dir/C_/labs/lab/datavalidator.cpp.obj	a42e5f4dc290ebdb
-91	911	7691664619260393	C:/labs/lab/data_test/build/data_autogen/mocs_compilation.cpp	e3a21b59b3e5c8f4
-91	911	7691664619260393	C:/labs/lab/data_test/build/data_autogen/timestamp	e3a21b59b3e5c8f4
-903	997	7687351257754343	CMakeFiles/data.dir/data_autogen/mocs_compilation.cpp.obj	abca49b3be0c97b2
-91	911	7691664619260393	data_autogen/mocs_compilation.cpp	e3a21b59b3e5c8f4
-91	911	7691664619260393	data_autogen/timestamp	e3a21b59b3e5c8f4
-24	784	7691665953050290	data_autogen/timestamp	e3a21b59b3e5c8f4
-24	784	7691665953050290	data_autogen/mocs_compilation.cpp	e3a21b59b3e5c8f4
-24	784	7691665953050290	C:/labs/lab/data_test/build/data_autogen/timestamp	e3a21b59b3e5c8f4
-24	784	7691665953050290	C:/labs/lab/data_test/build/data_autogen/mocs_compilation.cpp	e3a21b59b3e5c8f4
-786	3989	7691665960653218	CMakeFiles/data.dir/tst_data.cpp.obj	d51977fe5abefaae
 3989	4111	7691665992721092	data.exe	f092942b7bd919a0
+786	3989	7691665960653218	CMakeFiles/data.dir/tst_data.cpp.obj	d51977fe5abefaae
+913	2367	7687351257854048	CMakeFiles/data.dir/C_/labs/lab/datavalidator.cpp.obj	a42e5f4dc290ebdb
+24	784	7691665953050290	C:/labs/lab/data_test/build/data_autogen/mocs_compilation.cpp	e3a21b59b3e5c8f4
+24	784	7691665953050290	C:/labs/lab/data_test/build/data_autogen/timestamp	e3a21b59b3e5c8f4
+903	997	7687351257754343	CMakeFiles/data.dir/data_autogen/mocs_compilation.cpp.obj	abca49b3be0c97b2
+24	784	7691665953050290	data_autogen/mocs_compilation.cpp	e3a21b59b3e5c8f4
+24	784	7691665953050290	data_autogen/timestamp	e3a21b59b3e5c8f4
